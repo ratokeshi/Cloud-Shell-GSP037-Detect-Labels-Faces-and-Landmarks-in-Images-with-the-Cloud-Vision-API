@@ -34,10 +34,10 @@ To create an API key, navigate to APIs & services > Credentials in your Cloud co
 ![alt text](https://cdn.qwiklabs.com/8cDO0kBoc2byO7otbM1QFWuYWv0ZZAUH1iBDR200dKA%3D "api_nav.png")
 
 Click on the Create credentials button.
-create_cred.png
+![alt text](https://cdn.qwiklabs.com/OPRnwJAzyxcK1bvJ1Iv7f3FyL5WaNzAqwiu5Yr6oPTI%3D "create_cred.png")
 
 In the drop-down menu, select API key.
-![alt text](https:// "api_key.png")
+![alt text](https://cdn.qwiklabs.com/OyE7y6jsqa%2BB6obwA%2BVYClGCPXy6ER1BKE0f3cLlx7s%3D "api_key.png")
 
 Next, copy the key you just generated and save it to an environment variable to avoid having to insert the value of your API key in each request. Run the following, replacing <your_api_key> with the key you just copied:
 
@@ -50,10 +50,10 @@ Creating a Cloud Storage bucket
 There are two ways to send an image to the Vision API for image detection: by sending the API a base64 encoded image string, or passing it the URL of a file stored in Google Cloud Storage. We'll be using a Cloud Storage URL. The first step is to create a Google Cloud Storage bucket to store our images.
 
 Navigate to Navigation menu > Storage in the Cloud console for your project, then click Create bucket.
-![alt text](https:// "ThisImage")storage_nav.png
+![alt text](https://cdn.qwiklabs.com/YjeT9%2FI0vbVTm8jEKjpWvL2yQdCuNCqQTnfTf%2Fsabmg%3D "storage_nav")
 
 Give your bucket a unique name and click Create.
-![alt text](https:// "api_key.png")create_bucket.png
+![alt text](https://cdn.qwiklabs.com/z%2FofyjLlIzROfsVasYRvkyP0ai5aN4I3HlY1LnmCViw%3D "create_bucket.png")
 
 Upload an image to your bucket
 Right click on the following image of donuts, then click Save image as and save it to your computer as donuts.png.
@@ -282,7 +282,9 @@ Let's say you wanted to find other images of beignets, but not the exact same im
 ```
 You can navigate to those URLs to see the similar images:
 
-result1.png result2.png result3.png
+![alt text](https "ThisImage")result1.png 
+![alt text](https "ThisImage")result2.png 
+![alt text](https "ThisImage")result3.png
 
 And now you probably really want a powdered sugar beignet(sorry)! This is similar to searching by an image on Google Images.
 
@@ -299,7 +301,7 @@ Upload a new image
 To use these two methods, you'll upload a new image with faces and landmarks to the Cloud Storage bucket.
 
 Right click on the following image, then click Save image as and save it to your computer as selfie.png.
-selfie.png
+![alt text](https "ThisImage")selfie.png
 
 Now upload it to your Cloud Storage bucket the same way you did before, and make it public.
 
