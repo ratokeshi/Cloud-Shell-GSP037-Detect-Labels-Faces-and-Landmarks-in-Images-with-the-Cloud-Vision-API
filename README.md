@@ -1,4 +1,4 @@
-# Google-Cloud-Shell-Tutorial-Cloud-ML-Engine-Quick-Start-6077
+# GSP037 Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API
 A Tutorial on how to complete the GSP037-Detect-Labels-Faces-and-Landmarks-in-Images-with-the-Cloud-Vision-API Lab directly in console. Using the Google Cloud Shell tutorials
 
 [https://google.qwiklabs.com/focuses/6077?parent=catalog](https://google.qwiklabs.com/focuses/6077?parent=catalog)
