@@ -31,13 +31,13 @@ cloudshell launch-tutorial tutorial.md
 
 
 
-
+```bash
 gcloud config configurations create qwiklab-$(date +%s)
 gcloud config unset project
 gcloud auth login <google5150507_student@qwiklabs.net>
 gcloud config set project <from Lab>
 cloudshell launch-tutorial tutorial.md
-
+```
 
 
 To begin the tutorial in your currently authenticated Google account, click on the button given below:
