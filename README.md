@@ -3,6 +3,9 @@ A Tutorial on how to complete the GSP037-Detect-Labels-Faces-and-Landmarks-in-Im
 
 [https://google.qwiklabs.com/focuses/6077?parent=catalog](https://google.qwiklabs.com/focuses/6077?parent=catalog)
 
+This lab is also part of the [Intro to ML: Image Processing](https://google.qwiklabs.com/quests/85) Quest
+
+
 Overview
 The Cloud Vision API lets you understand the content of an image by encapsulating powerful machine learning models in a simple REST API.
 

@@ -57,15 +57,15 @@ Give your bucket a unique name and click Create.
 
 Upload an image to your bucket
 Right click on the following image of donuts, then click Save image as and save it to your computer as donuts.png.
-![alt text](https:// "ThisImage")test_image.png
+![alt text](https://cdn.qwiklabs.com/V4PmEUI7yXdKpytLNRqwV%2ByGHqym%2BfhdktVi8nj4pPs%3D "donuts.png")
 
 Go to the bucket you just created and click Upload files. Then select donuts.png.
-![alt text](https:// "api_key.png")Bucket_mybucket_upload_files.png
+![alt text](https://cdn.qwiklabs.com/Yh4DAGGG5sWsKdgvuVv8mhLb%2Fsr5hMb0OFOji7Wskm8%3D "api_key.png")Bucket_mybucket_upload_files.png
 
 You should see the file in your bucket.
 
 Next, click on the 3 dots for your image and select Edit Permissions.
-![alt text](https:// "api_key.png")Bucket_donut_public.png
+![alt text](https://cdn.qwiklabs.com/kwtkEJ18%2FGOgDZs915lfQ4ZQvfnPbw8JkECN6egxmKg%3D  "Upload")
 
 Click Add item then enter the following:
 Entity: Group
@@ -74,7 +74,7 @@ Name: allUsers
 
 Access: Reader
 
-![alt text](https:// "api_key.png")bucket_object_public_perm.png
+![alt text](https://cdn.qwiklabs.com/RfdadHSPrLA1%2BRcKtdU9HyIhPDGCM4GabDdGVfmq5BI%3D "Add item")
 
 Then click Save.
 Now that you have the file in your bucket, you're ready to create a Vision API request, passing it the URL of this donuts picture.
