@@ -29,11 +29,8 @@ To begin the tutorial in a Qwiklab open your Google Cloud Consoles as you normal
 3.  Enter the following commands to clone this repository and launch the turotial.
 ```bash
 git clone https://github.com/ratokeshi/Cloud-Shell-GSP037-Detect-Labels-Faces-and-Landmarks-in-Images-with-the-Cloud-Vision-API.git
-&& cd Cloud-Shell-GSP037-Detect-Labels-Faces-and-Landmarks-in-Images-with-the-Cloud-Vision-API 
-&& cloudshell launch-tutorial tutorial.md
+&& cd Cloud-Shell-GSP037-Detect-Labels-Faces-and-Landmarks-in-Images-with-the-Cloud-Vision-API && cloudshell launch-tutorial tutorial.md
 ```
-
-
 
 ```bash
 gcloud config configurations create qwiklab-$(date +%s)

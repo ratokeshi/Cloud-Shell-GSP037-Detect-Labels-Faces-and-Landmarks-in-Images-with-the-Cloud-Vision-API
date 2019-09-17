@@ -83,7 +83,7 @@ Create your Vision API request
 Now you'll create a request.json file in the Cloud Shell environment.
 
 Using the Cloud Shell code editor (by clicking the pencil icon in the Cloud Shell ribbon),
-![alt text](https:// "ThisImage")pencil.png
+![alt text](https://cdn.qwiklabs.com/O1pSCpaSe6p5nxOMmjQg3Vsf0YwHaqW2bT56hM6Iym0%3D "ThisImage")Cloud Shell ribbon
 
 or your preferred command line editor (nano, vim, or emacs), create a request.json file.
 
@@ -282,11 +282,11 @@ Let's say you wanted to find other images of beignets, but not the exact same im
 ```
 You can navigate to those URLs to see the similar images:
 
-![alt text](https "ThisImage")result1.png 
-![alt text](https "ThisImage")result2.png 
-![alt text](https "ThisImage")result3.png
+![alt text](https://cdn.qwiklabs.com/vgWkDHchgJbOs4QsNHnrTHKs5%2Fo1rkQWFxMCLtHmrPo%3D "ThisImage")result1.png 
+![alt text](https://cdn.qwiklabs.com/w%2BfLMzkJxWN1WummHFhBLmkw5eFFSMFfQUiN6bwAwFA%3D "ThisImage")result2.png 
+![alt text](https://cdn.qwiklabs.com/S%2FkNFToGu3UCBBin8FTTTupTpksj6PBcKpa1ZyPqwNk%3D "ThisImage")result3.png
 
-And now you probably really want a powdered sugar beignet(sorry)! This is similar to searching by an image on Google Images.
+And now you probably really want a powdered sugar beignet(sorry)! This is similar to searching by an image on [Google Images]: https://images.google.com/.
 
 With Cloud Vision you can access this functionality with an easy to use REST API and integrate it into your applications.
 
@@ -301,7 +301,7 @@ Upload a new image
 To use these two methods, you'll upload a new image with faces and landmarks to the Cloud Storage bucket.
 
 Right click on the following image, then click Save image as and save it to your computer as selfie.png.
-![alt text](https "ThisImage")selfie.png
+![selfie.png](https://cdn.qwiklabs.com/5%2FxwpTRxehGuIRhCz3exglbWOzueKIPikyYj0Rx82L0%3D "ThisImage")
 
 Now upload it to your Cloud Storage bucket the same way you did before, and make it public.
 
@@ -441,10 +441,10 @@ Go back to the Qwicklabs page to verify the lab shows as complete.
 What you've covered
 Calling the Vision API with curl by passing it the URL of an image in a Cloud Storage bucket
 Using the Vision API's label, face, and landmark detection methods
-![alt text](https:// "ThisImage")ml_quest_icon.png ML-Image-Processing-badge.png
+![ml_quest_icon.png](https://cdn.qwiklabs.com/IApG9d%2FXIEgLgs087RvzuRMv2SCAHo6owBXVZUfyhtQ%3D "ThisImage") ![ML-Image-Processing-badge.png](https://cdn.qwiklabs.com/RGK1oeQbB4Lh3nZadxyeMRveRZuO8WQMNCDyzomMKMM%3D)
 
 Finish your quest
-This self-paced lab is part of the Qwiklabs Quests Machine Learning APIs and Intro to ML: Image Processing. A Quest is a series of related labs that form a learning path. Completing a Quest earns you a badge to recognize your achievement. You can make your badge (or badges) public and link to them in your online resume or social media account. Enroll in these Quests and get immediate completion credit if you've taken this lab. See other available Qwiklabs Quests.
+This self-paced lab is part of the Qwiklabs Quests [Machine Learning APIs]:https://google.qwiklabs.com/quests/32 and [Intro to ML: Image Processing]:https://google.qwiklabs.com/quests/85. A Quest is a series of related labs that form a learning path. Completing a Quest earns you a badge to recognize your achievement. You can make your badge (or badges) public and link to them in your online resume or social media account. Enroll in these Quests and get immediate completion credit if you've taken this lab. [See other available Qwiklabs Quests]:http://google.qwiklabs.com/catalog .
 
 Take your next lab
 Try out another lab on Machine Learning APIs, like Entity and Sentiment Analysis with the Natural Language API or Awwvision: Cloud Vision API from a Kubernetes Cluster.
@@ -452,10 +452,10 @@ Try out another lab on Machine Learning APIs, like Entity and Sentiment Analysis
 Next steps / learn more
 Check out the Vision API tutorials in the documentation
 Find a Vision API sample in your favorite language on GitHub
-Check out the Entity and Sentiment Analysis with the Natural Language API lab.
-Sign up for the full Coursera Course on Machine Learning
+Check out the [Entity and Sentiment Analysis with the Natural Language API lab]: https://google.qwiklabs.com/catalog_lab/1113 .
+Sign up for the full [Coursera Course on Machine Learning]:https://www.coursera.org/learn/serverless-machine-learning-gcp/
 Google Cloud Training & Certification
-...helps you make the most of Google Cloud technologies. Our classes include technical skills and best practices to help you get up to speed quickly and continue your learning journey. We offer fundamental to advanced level training, with on-demand, live, and virtual options to suit your busy schedule. Certifications help you validate and prove your skill and expertise in Google Cloud technologies.
+...helps you make the most of Google Cloud technologies. [Our classes]:https://cloud.google.com/training/courses include technical skills and best practices to help you get up to speed quickly and continue your learning journey. We offer fundamental to advanced level training, with on-demand, live, and virtual options to suit your busy schedule. [Certifications]:https://cloud.google.com/certification/  help you validate and prove your skill and expertise in Google Cloud technologies.
 
 Manual Last Updated Juy 17, 2019
 Lab Last Tested Juy 17, 2019
